@@ -13,8 +13,19 @@
             "paw\\bootstrap4\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
-        "mlaxwong/paw": "^1.1"
+        "betatech/paw": "^1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
     }
 }
